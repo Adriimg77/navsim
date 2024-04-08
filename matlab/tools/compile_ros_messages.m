@@ -16,8 +16,8 @@ elseif ispc %Windows computer
             NAVSIM_PATH = 'c:\Users\Rafael.Casado\code\navsim\';
         case 'Rafa'
             NAVSIM_PATH = 'c:\Users\Rafa\code\navsim\';
-        case 'usuario'
-            NAVSIM_PATH = 'c:\Users\usuario\code\navsim\';
+        case 'adria'
+            NAVSIM_PATH = 'c:\Users\adria\code\navsim\';
         otherwise
             error('NAVSIM_DIR not defined');
     end
@@ -30,3 +30,4 @@ addpath(fullfile(NAVSIM_PATH,'ws/src/matlab_msg_gen/',PLATFORM,'/install/m/'));
 
 clear classes
 rehash toolboxcache
+
